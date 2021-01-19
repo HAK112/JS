@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="calculator.js"></script>
+    <style>
+        .center {
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body style="background-color:coral;">
+    <div class="container">
+        <div class="row center">
+            <input id="val1" class="form-control" style="width: 60% !important;"/>
+            <br>
+            <input id="val2" class="form-control" style="width: 60% !important;"/>
+            <br>
+            <button id="add" type="button" onclick="addition()" class="btn btn-primary col-3">Addition</button>
+            <button id="sub" type="button" onclick="subtraction()" class="btn btn-secondary">Subtraction</button>
+            <button id="mul" type="button" onclick="multiplication()" class="btn btn-success">Multiply</button>
+            <button id="div" type="button" onclick="division()" class="btn btn-danger">Division</button>
+            <br>
+            <p id="result" class="form-control" style="width: 60% !important; margin-top: 20px;"> Rsult shold be dispalyed here: </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
